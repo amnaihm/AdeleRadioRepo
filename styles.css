@@ -1,0 +1,50 @@
+
+.bgimage {
+    height:100vh;
+    background: url('photos/adelebg2.jpg');
+    background-size:cover;
+    position:relative;
+}
+.hero_title {
+    font-size: 4rem;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+.hero_desc {
+    font-size: 1rem;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btnsection{
+    background-color: black;
+}
+.buttoncontainer{
+    text-align: center;
+}
+.btn{
+    width: 80%;
+    margin: 20px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+
+
+
+

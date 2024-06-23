@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesomeee -->
+    <script src="https://kit.fontawesome.com/c25c621d2f.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="icon" href="radio-solid.svg">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- heading -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap" rel="stylesheet">
+    <title>The Adele Radio</title>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+    
+    
+
+
+    <!-- backgroundimagesection -->
+    <section class="bgimage" id="home">
+    </section>
+    
+    
+
+
+
+
+
+
+
+
+    
+    <!-- websection1mainfaceheadings -->
+    <section class="websection1">
+        <div class="container-fluid">
+        <div class="row">
+        <div class=" hero-text">
+        <h2 class="hero_title">THE ADELE RADIO</h2>
+        <p class="hero_desc">Enjoy the most favorite and most popular Adele songs here for free!</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- songbuttonssection -->
+    <section class="btnsection">
+        <div class="buttoncontainer">
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(0)"><i class="fa-solid fa-music fa-bounce"></i> Someone like you from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(1)"><i class="fa-solid fa-music fa-bounce"></i> Don't you remember from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(2)"><i class="fa-solid fa-music fa-bounce"></i> Rolling in the deep from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(3)"><i class="fa-solid fa-music fa-bounce"></i> Easy on me from "30"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(4)"><i class="fa-solid fa-music fa-bounce"></i> Hello from "25"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(5)"><i class="fa-solid fa-music fa-bounce"></i> I drink wine from "30"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(6)"><i class="fa-solid fa-music fa-bounce"></i> Love in the dark from "25"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(7)"><i class="fa-solid fa-music fa-bounce"></i> One and only from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(8)"><i class="fa-solid fa-music fa-bounce"></i> When we were young from "25"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(9)"><i class="fa-solid fa-music fa-bounce"></i> Set fire to the rain from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(10)"><i class="fa-solid fa-music fa-bounce"></i> Lovesong from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(11)"><i class="fa-solid fa-music fa-bounce"></i> Send my love (to your new lover) from "25"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(12)"><i class="fa-solid fa-music fa-bounce"></i> Take it all from "21"</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block" onClick="playMyAudio(13)"><i class="fa-solid fa-music fa-bounce"></i> Turning tables from "21"</button>
+        </div>
+    </section>
+
+
+
+
+    <!-- songssection -->
+    <audio src="music/someonelikeyou.mp3" id="myAudio0"></audio>
+    <audio src="music/dontyouremember.mp3" id="myAudio1"></audio>
+    <audio src="music/rollinginthedeep.mp3" id="myAudio2"></audio>
+    <audio src="music/easyonme.mp3" id="myAudio3"></audio>
+    <audio src="music/hello.mp3" id="myAudio4"></audio>
+    <audio src="music/idrinkwine.mp3" id="myAudio5"></audio>
+    <audio src="music/loveinthedark.mp3" id="myAudio6"></audio>
+    <audio src="music/oneandonly.mp3" id="myAudio7"></audio>
+    <audio src="music/whenwewereyoung.mp3" id="myAudio8"></audio>
+    <audio src="music/setfiretotherain.mp3" id="myAudio9"></audio>
+    <audio src="music/lovesong.mp3" id="myAudio10"></audio>
+    <audio src="music/sendmylove.mp3" id="myAudio11"></audio>
+    <audio src="music/takeitall.mp3" id="myAudio12"></audio>
+    <audio src="music/turningtables.mp3" id="myAudio13"></audio>
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    <!-- javascript -->
+    <script src="index.js" charset="utf-8"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+</body>
+</html>
